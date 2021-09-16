@@ -1,0 +1,34 @@
+.gist {
+  .blob-wrapper {
+    padding: 15px 0;
+    background-color: #000;
+    .highlight {
+      background-color: #000;
+    }
+    td {
+      color: #fff;
+    }
+  }
+  .blob-num:before {
+    color: #fff;
+  }
+  .pl-kos {
+    color: #fff;
+  }
+  .pl-smi {
+    color: #e01a4f;
+  }
+  .pl-s1 {
+    color: #53b3cb;
+  }
+  .pl-pds, .pl-s, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre, .pl-e, .pl-ent {
+    color: #f15946;
+  }
+  .pl-en, .pl-c1, .pl-s3 {
+    color: #f9c22e;
+  }
+  .gist-meta {
+    background: #000;
+    color: #fff;
+  }
+}
