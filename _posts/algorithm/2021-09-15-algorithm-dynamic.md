@@ -1,0 +1,27 @@
+---
+layout: post
+current: post
+cover:  assets/built/images/moonlight.jpg
+navigation: True
+title: Algorithm 강좌(2) - dynamic programming
+date: 2021-09-14 16:40:00
+tags: [algorithm]
+class: post-template
+subclass: 'post tag-python'
+author: crosstar
+---
+
+{% include algorithm-table-of-contents.html %}
+## 또 안녕
+__동적 계획법이란 무엇일까?__
+
+**진짜로.**
+`후`..
+
+~~~javascript
+
+for i in range(30):
+    print(f)
+~~~
+
+{% gist crosstar1228/72405adebf1b45691bf061cd789929b6 %}
