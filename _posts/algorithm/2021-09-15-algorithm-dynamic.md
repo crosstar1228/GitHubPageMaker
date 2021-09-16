@@ -23,7 +23,7 @@ __동적 계획법이란 무엇일까?__
 ~~~javascript
 
 for i in range(30):
-    print(f)
+    print(i)
 ~~~
 
 {% gist crosstar1228/72405adebf1b45691bf061cd789929b6 %}
