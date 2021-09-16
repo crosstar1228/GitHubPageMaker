@@ -19,6 +19,20 @@ script: bundle exec rake site:deploy --quiet #--trace
 # gem install travis
 # GH_TOKEN from https://github.com/settings/tokens
 # travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
+
+exclude: [vendor]
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $CROSSTAR_GITHUB_TOKEN
+  keep_history: true
+  local-dir: ./_site
+  target-branch: main
+  on:
+    branch: sources
+
+
 env:
   global:
     secure: "xe5ZYT06TJQutZOVYY/BQ0ib1zxkJtLLgQHf1eoLzlgsWEy2L4K7tiSX5VgyeGN0+KXTolp96vhRTcgi9E+Lxt+hWpcDxfOfezp2ljgXcL9LIzoINLwLTpWtIJ4sa6kBjDiOlPX9Jvb04I
