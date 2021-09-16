@@ -10,7 +10,7 @@ install:
 
 before_script:
   - git config --global user.email "wptjd212@gmail.com"
-  - git config --global user.name "건너별"
+  - git config --global user.name "crosstar1228"
 
 script: bundle exec rake site:deploy --quiet #--trace
 
