@@ -29,7 +29,7 @@ highlighter: rouge
 # 2016.02월 이후로 syntax highlighter는 rouge만 지원.
 # Pygments 사용불가.
 
-paginate: 15
+paginate: 16
 # 작성한 모든 post를 하나의 페이지에 열거할 수 없으니
 # pagination이 필요하고 몇개의 post를 하나의 page에서
 # 보여줄 건지를 설정.
