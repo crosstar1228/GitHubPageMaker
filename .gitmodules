@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/crosstar1228/crosstar1228.github.io.git
