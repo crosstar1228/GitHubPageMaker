@@ -1,6 +1,6 @@
 crosstar :
   name: crosstar
-  description: False
+  description: True
   cover: assets/built/images/background-frontend.jpg
 machinelearning :
   name: machinelearning
@@ -8,7 +8,7 @@ machinelearning :
   cover: assets/built/images/background-frontend.jpg
 algorithm :
   name: algorithm
-  description: False
+  description: True
   cover: assets/built/images/background-frontend.jpg
 git :
   name: git
