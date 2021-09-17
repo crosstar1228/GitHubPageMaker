@@ -26,4 +26,4 @@ for i in range(30):
     print(i)
 ~~~
 
-{% gist crosstar1228/72405adebf1b45691bf061cd789929b6 %}
+{% gist crosstar1228/e42e3d241997ab6b3c85dc6a3ae242c6 %}
