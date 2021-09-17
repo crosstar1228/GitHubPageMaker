@@ -3,7 +3,7 @@ crosstar :
   name: 건너별(crosstar)       # user full name : Martin Luther King
   url_full:             # Homepage url
   url:
-  bio: <a href="http://brunch.co.kr/@wptjd212">건너별의 서랍장, Crosstar's Drawer</a>
+  bio: <a href="http://brunch.co.kr/@wptjd212#articles">건너별의 서랍장, Crosstar's Drawer</a>
   # 회사정보
   picture: assets/built/images/logo.jpg   # author image
   facebook: https://www.facebook.com/wptjd212            # facebook ID

@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/built/images/moonlight.jpg
+cover:  assets/built/images/algorithm.png
 navigation: True
 title: Algorithm 강좌(2) - dynamic programming
 date: 2021-09-14 16:40:00
