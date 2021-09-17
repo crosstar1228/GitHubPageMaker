@@ -5,7 +5,7 @@ cover:  assets/built/images/github_logo.png
 navigation: True
 title: git push 오류 - error: failed to push some refs to ~
 date: 2021-09-17 11:00:00
-tags: [GIT]
+tags: [algorithm]
 class: post-template
 subclass: 'post tag-python'
 author: crosstar
