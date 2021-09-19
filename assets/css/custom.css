@@ -32,7 +32,7 @@ ol.mylist li:hover {
     display: inline-block;
     margin: 0 2px 0 4px;
     line-height: 1;
-    font-family: "FontAwesome";
+    font-family: Georgia, "Malgun Gothic";
     font-size: 2rem;
     font-weight: normal;
     font-style: normal;
@@ -91,7 +91,7 @@ ol.table-of-contents-list li:before {
     display: inline-block;
     margin: 0 2px 0 4px;
     line-height: 1;
-    font-family: "FontAwesome";
+    font-family: Georgia, "Malgun Gothic";
     font-size: 2rem;
     font-weight: normal;
     font-style: normal;
@@ -157,7 +157,7 @@ strong.post_introduction:before {
     display: inline-block;
     margin: 0 2px 0 4px;
     line-height: 1;
-    font-family: "FontAwesome";
+    font-family: Georgia, "Malgun Gothic";
     font-size: 3rem;
     font-weight: normal;
     font-style: normal;
@@ -172,7 +172,7 @@ strong.subtitle_fontAwesome:before {
     display: inline-block;
     margin: 0 2px 0 4px;
     line-height: 1;
-    font-family: "FontAwesome";
+    font-family: Georgia, "Malgun Gothic";
     font-size: 5rem;
     font-weight: normal;
     font-style: normal;
@@ -187,7 +187,7 @@ strong.subtitle2_fontAwesome:before {
     display: inline-block;
     margin: 0 2px 0 4px;
     line-height: 1;
-    font-family: "FontAwesome";
+    font-family: Georgia, "Malgun Gothic";
     font-size: 3rem;
     font-weight: normal;
     font-style: normal;
@@ -254,7 +254,7 @@ ul.lecture-reference li:before {
     display: inline-block;
     margin: 0 2px 0 4px;
     line-height: 1;
-    font-family: "FontAwesome";
+    font-family: Georgia, "Malgun Gothic";
     font-size: 2rem;
     font-weight: normal;
     font-style: normal;
@@ -451,7 +451,7 @@ ul.lecture-reference li:before {
     position: absolute;
     top: 0;
     line-height: 50px;
-    font-family: "fontawesome";
+    font-family: Georgia, "Malgun Gothic";
     color: #fff;
     speak: none;
     -webkit-font-smoothing: antialiased;

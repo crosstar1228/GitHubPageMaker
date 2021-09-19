@@ -10,7 +10,7 @@ algorithm :
   name: algorithm
   description: True
   cover: assets/built/images/background-frontend.jpg
-GIT :
+git :
   name: git
   description: False
   cover: assets/built/images/background-frontend.jpg
