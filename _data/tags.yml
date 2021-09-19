@@ -14,3 +14,7 @@ crosstar :
   name: crosstar
   description: True
   cover: assets/built/images/background-frontend.jpg
+CS231n :
+  name: CS231n
+  description: True
+  cover: assets/built/images/background-frontend.jpg
