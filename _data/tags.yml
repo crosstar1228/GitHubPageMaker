@@ -6,8 +6,8 @@ algorithm :
   name: algorithm
   description: True
   cover: assets/built/images/background-frontend.jpg
-git :
-  name: git
+github :
+  name: github
   description: True
   cover: assets/built/images/background-frontend.jpg
 crosstar :
