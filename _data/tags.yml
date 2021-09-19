@@ -6,10 +6,6 @@ algorithm :
   name: algorithm
   description: True
   cover: assets/built/images/background-frontend.jpg
-git_codes :
-  name: git_codes
-  description: True
-  cover: assets/built/images/background-frontend.jpg
 crosstar :
   name: crosstar
   description: True
