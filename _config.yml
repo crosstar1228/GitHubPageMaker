@@ -82,8 +82,12 @@ subscribers: True
 
 twitter:
 facebook: wptjd212
+gmail: wptjd212
+brunch: wptjd212
+instagram: analyst_ryu
+github: crosstar1228
 # 만약 twitter와 facebook을 이용하면 username을 입력
-
+# 브런치, 지메일, 주소 등 추가
 # Disqus
 disqus: True
 disqus_shortname: crosstar
