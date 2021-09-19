@@ -4,7 +4,7 @@ crosstar :
   cover: assets/built/images/background-frontend.jpg
 ML :
   name: machinelearning
-  description: False
+  description: True
   cover: assets/built/images/background-frontend.jpg
 algorithm :
   name: algorithm
@@ -12,5 +12,5 @@ algorithm :
   cover: assets/built/images/background-frontend.jpg
 git :
   name: git
-  description: False
+  description: True
   cover: assets/built/images/background-frontend.jpg
