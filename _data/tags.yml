@@ -1,13 +1,13 @@
-ML :
-  name: ML
+machinelearning :
+  name: machinelearning
   description: True
   cover: assets/built/images/background-frontend.jpg
 algorithm :
   name: algorithm
   description: True
   cover: assets/built/images/background-frontend.jpg
-github :
-  name: github
+giterrors :
+  name: giterrors
   description: True
   cover: assets/built/images/background-frontend.jpg
 crosstar :
