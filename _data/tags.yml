@@ -18,3 +18,7 @@ error :
   name: error
   description: True
   cover: assets/built/images/background-frontend.jpg
+errors :
+  name: errors
+  description: True
+  cover: assets/built/images/background-frontend.jpg
