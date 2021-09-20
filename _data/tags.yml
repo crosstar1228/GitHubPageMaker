@@ -14,7 +14,7 @@ CS231n :
   name: CS231n
   description: True
   cover: assets/built/images/background-frontend.jpg
-git :
-  name: git
+error :
+  name: error
   description: True
   cover: assets/built/images/background-frontend.jpg
