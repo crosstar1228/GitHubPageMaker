@@ -1237,6 +1237,9 @@ Usage (In Ghost editor):
     margin: 0 auto;
     max-width: 840px;
 }
+.utterances {
+    max-width: 100% !important;
+}
 
 
 /* 7.4. Related posts
