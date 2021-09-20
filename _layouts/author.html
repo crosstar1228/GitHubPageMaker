@@ -33,6 +33,19 @@ logo: 'assets/images/ghost.png'
                     <div class="author-stats">
                         {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} <span class="bull">&bull;</span>
                     </div>
+                    <!--추가된 부분-->
+                    {% if author[1].gmail %}
+                    <a class="social-link social-link-fb" href="https://{{ author[1].gmail }}@gmail.com" target="_blank" rel="noopener">{% include gmail.html %}</a>
+                    {% endif %}
+                    {% if author[1].github %}
+                    <a class="social-link social-link-fb" href="https://github.com/{{ author[1].github }}" target="_blank" rel="noopener">{% include github.html %}</a>
+                    {% endif %}
+                    {% if author[1].brunch %}
+                    <a class="social-link social-link-fb" href="https://brunch.co.kr/@{{ author[1].brunch }}" target="_blank" rel="noopener">{% include brunch.html %}</a>
+                    {% endif %}
+                    {% if author[1].instagram %}
+                    <a class="social-link social-link-fb" href="https://www.instagram.com/{{ author[1].instagram }}/" target="_blank" rel="noopener">{% include instagram.html %}</a>
+                    {% endif %}
                     {% if author[1].url %}
                         <a class="social-link social-link-wb" href="{{ author[1].url_full }}" target="_blank" rel="noopener">{% include website.html %}</a>
                     {% endif %}
