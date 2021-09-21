@@ -1240,9 +1240,6 @@ Usage (In Ghost editor):
 /*
 utterance 너비 추가 !
  */
-.utterances {
-    max-width: 100% !important;
-}
 
 
 /* 7.4. Related posts
