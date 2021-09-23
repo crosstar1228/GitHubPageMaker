@@ -14,6 +14,10 @@ CS231n :
   name: CS231n
   description: True
   cover: assets/built/images/stanford_background.jpg
+error :
+  name: error
+  description: True
+  cover: assets/built/images/background-frontend.jpg
 errors :
   name: errors
   description: True
