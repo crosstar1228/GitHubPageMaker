@@ -24,6 +24,10 @@ owner:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
 
+excerpt_separator: "\n\n"
+incremental: false
+# 수식작성을 위한 추가항목
+
 highlighter: rouge
 # text highlighter로 rouge이용
 # 2016.02월 이후로 syntax highlighter는 rouge만 지원.
