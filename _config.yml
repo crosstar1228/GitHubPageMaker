@@ -24,6 +24,7 @@ owner:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
 
+lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 # 수식작성을 위한 추가항목
