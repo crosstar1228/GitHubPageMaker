@@ -79,5 +79,3 @@ solution(m,n,board)
 >>> 14
 ~~~
 # 14개의 블록이 터진다 펑!
-
-{% gist crosstar1228/e42e3d241997ab6b3c85dc6a3ae242c6 %}
