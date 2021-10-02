@@ -11,7 +11,7 @@ subclass: 'post tag-python'
 author: crosstar
 ---
 
-{% include algorithm-table-of-contents.html %}
+
 
 
 [문제 풀기](https://programmers.co.kr/learn/courses/30/lessons/17679)
