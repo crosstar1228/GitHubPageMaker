@@ -3,8 +3,8 @@ layout: post
 current: post
 cover:  assets/built/images/friends4block.png
 navigation: True
-title: [Lv2] 2018 카카오 코딩테스트 '프렌즈4블록' 문제 해설
-date: 2021-09-30 16:40:00
+title: Lv2 - 2018 카카오 코딩테스트 '프렌즈4블록' 문제 해설
+date: 2021-10-01 16:40:00
 tags: [algorithm]
 class: post-template
 subclass: 'post tag-python'
@@ -31,6 +31,8 @@ author: crosstar
 > 2. Transpose해서 진행
 > 3. 0 개수 count를 위한, '_'로의 치환
 
+
+Code
 ~~~javascript
 ## 세팅
 
@@ -78,4 +80,4 @@ def solution(m, n, board):
 solution(m,n,board)
 >>> 14
 ~~~
-# 14개의 블록이 터진다 펑!
+## 14개의 블록이 터진다 펑!
