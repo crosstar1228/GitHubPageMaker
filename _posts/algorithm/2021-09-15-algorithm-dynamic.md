@@ -17,7 +17,7 @@ author: crosstar
 [문제 풀기](https://www.welcomekakao.com/learn/courses/30/lessons/42895#)
 
 
-> dynamic programming을 활용하는 문제입니다!
+> dynamic programming을 활용하는 문제입니다!~
 > ## 🧐keypoint
 > - 사용횟수가 1 일때, 사용횟수가 2 일 때 경우의 수들을 정리해 보는것이 **첫번째 아이디어**이다. 
 > - 사용횟수가 2 인 집합은 사용횟수 1,사용횟수 1 인 집합을 합쳐 만들어낼 수 있다. 횟수 2,3,4 모두 마찬가지다.
