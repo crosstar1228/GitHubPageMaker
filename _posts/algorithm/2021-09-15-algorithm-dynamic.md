@@ -28,8 +28,11 @@ author: crosstar
 - 2회 조합으로 만들어 낼 수 있는 수 : 6(3+3), 1(3/3), 9(3*3), 33(연속)
 
 
+## 코드!
+{% gist crosstar1228/9924df7b8871e34629a5271389d40ab3 %}
 
-{% gist crosstar1228/e42e3d241997ab6b3c85dc6a3ae242c6 %}
 
+## 회고
+ - 코드의 x+y =i_half 부분과 반으로 나누는 이유에 대해서 복습 시 코드 면밀 검토
 ### Reference
 - https://www.hamadevelop.me/algorithm-n-expression/
