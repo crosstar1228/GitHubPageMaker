@@ -23,13 +23,13 @@ author: crosstar
 
 
 
-## 잘못된 풀이
+### 잘못된 풀이
 단순히 completion 리스트를 확인하고 participation에 없는 element를 반환할 경우, 동명이인 발생 시 문제를 처리하지 못한다.(오답)
 
-## 풀이 1. sorting and zip()
+### 풀이 1. sorting and zip()
 sorted로 정렬 후  zip함수를 이용하여 짝이 안맞는 남은 경우를 return
 
-## 풀이 2.hash() 이용
+### 풀이 2.hash() 이용
 hash() 함수로 특정 주소를 hashing 한 후 남은 값에 mapping된 원소를 리턴.(주소 충돌이 있을 경우 문제가 될 소지가 있는 풀이.)
 
-## 풀이 3. collections.Counter 로 차이 연산
+### 풀이 3. collections.Counter 로 차이 연산
