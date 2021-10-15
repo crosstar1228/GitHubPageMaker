@@ -24,7 +24,7 @@ owner:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
 
-lsi: false
+
 excerpt_separator: "\n\n"
 incremental: false
 # 수식작성을 위한 추가항목
@@ -120,7 +120,7 @@ feed:
 
 # Travis-CI 설정입니다.
 safe: False
-lsi: False
+lsi: false
 
 username: crosstar1228
 repo: GitHubPageMaker
