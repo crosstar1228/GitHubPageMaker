@@ -22,3 +22,9 @@ error :
   name: error
   description: True
   cover: assets/built/images/background-frontend.jpg
+infra :
+  name: infra
+  description: True
+  cover: assets/built/images/background-frontend.jpg
+
+
