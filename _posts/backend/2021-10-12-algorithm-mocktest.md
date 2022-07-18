@@ -5,7 +5,7 @@ cover:  assets/built/images/algorithm.png
 navigation: True
 title: Lv1 - 프로그래머스 코딩테스트 '모의고사' 문제 해설 (stack,queue)
 date: 2021-10-01 16:40:00
-tags: [algorithm]
+tags: [backend]
 class: post-template
 subclass: 'post tag-python'
 author: crosstar

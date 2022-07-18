@@ -5,7 +5,7 @@ cover:  assets/built/images/algorithm.png
 navigation: True
 title: Algorithm 강좌(1) - basic programming
 date: 2021-09-14 16:40:00
-tags: [algorithm]
+tags: [backend]
 class: post-template
 subclass: 'post tag-python'
 author: crosstar

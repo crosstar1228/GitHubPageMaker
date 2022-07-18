@@ -5,7 +5,7 @@ cover:  assets/built/images/friends4block.png
 navigation: True
 title: Lv2 - 2018 카카오 코딩테스트 '프렌즈4블록' 문제 해설
 date: 2021-10-01 16:40:00
-tags: [algorithm]
+tags: [backend]
 class: post-template
 subclass: 'post tag-python'
 author: crosstar

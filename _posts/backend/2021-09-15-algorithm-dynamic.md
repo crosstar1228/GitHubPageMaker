@@ -5,7 +5,7 @@ cover:  assets/built/images/algorithm.png
 navigation: True
 title: 프로그래머스 코딩테스트 -  'N으로 표현' 문제 해설 (dynamic programming)
 date: 2021-10-04 16:40:00
-tags: [algorithm]
+tags: [backend]
 class: post-template
 subclass: 'post tag-python'
 author: crosstar
