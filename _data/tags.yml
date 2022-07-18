@@ -1,25 +1,25 @@
-machinelearning :
-  name: machinelearning
+ML :
+  name: ML
   description: True
   cover: assets/built/images/ml_background.jpg
-algorithm :
-  name: algorithm
+NLP :
+  name: NLP
   description: True
   cover: assets/built/images/algorithm_background.jpg
 crosstar :
   name: crosstar
   description: True
   cover: assets/built/images/background-frontend.jpg
-CS231n :
-  name: CS231n
+MLOps :
+  name: MLOps
   description: True
   cover: assets/built/images/stanford_background.jpg
-errors :
-  name: errors
+python :
+  name: python
   description: True
   cover: assets/built/images/background-frontend.jpg
-error :
-  name: error
+backend :
+  name: backend
   description: True
   cover: assets/built/images/background-frontend.jpg
 infra :
