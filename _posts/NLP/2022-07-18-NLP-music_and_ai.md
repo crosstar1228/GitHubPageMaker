@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/built/images/deeplearning.png
 navigation: True
-title: Music Generation and AI \: present and future
+title: Music Generation and AI, present and future
 date: 2022-07-18 11:00:00
 tags: [nlp]
 class: post-template
@@ -38,9 +38,10 @@ https://openai.com/blog/jukebox/
 - 가사를 위한 encoder를 더하고, **music decoder로부터 의 query**로부터 **가사 encoder로부터의 key, value 쌍** 으로의 attetion layer를 적용함.
 - 
 
-https://soundraw.io/
+https://soundraw.io/ -> ai는 아님
 https://magenta.tensorflow.org/
 https://www.aiva.ai/
+-> 음악 작곡
 
 https://towardsdatascience.com/generating-music-with-artificial-intelligence-9ce3c9eef806
 https://topten.ai/music-generators-review/
