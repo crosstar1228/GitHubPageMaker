@@ -13,14 +13,11 @@ author: crosstar
 
 
 # 안녕
-music & ai 역사
-https://velog.io/@tobigsvoice1516/5%EC%A3%BC%EC%B0%A8-MUSIC-COMPOSITION-WITH-DEEP-LEARNING-A-REVIEW
+- [music & ai 역사](https://velog.io/@tobigsvoice1516/5%EC%A3%BC%EC%B0%A8-MUSIC-COMPOSITION-WITH-DEEP-LEARNING-A-REVIEW
+)
 
 
-
-https://openai.com/blog/jukebox/
-
-[Github](https://github.com/openai/jukebox/)
+- [OpenAI - JukeBox](https://openai.com/blog/jukebox/) [[Github](https://github.com/openai/jukebox/)]
 
 ## Music Generation의 고질적인 문제 1 : LONG TERM DEPENDENCY
 - 해결법 1 : autoencoder로 저차원 space로 mapping
