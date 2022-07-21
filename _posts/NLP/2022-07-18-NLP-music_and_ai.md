@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/built/images/deeplearning.png
+cover:  assets/built/images/music_note.jpg
 navigation: True
 title: Music Generation and AI, present and future
 date: 2022-07-18 11:00:00
@@ -12,12 +12,11 @@ author: crosstar
 ---
 
 
-# 안녕
+## 목차
 - [music & ai 역사](https://velog.io/@tobigsvoice1516/5%EC%A3%BC%EC%B0%A8-MUSIC-COMPOSITION-WITH-DEEP-LEARNING-A-REVIEW
 )
-
-
 - [OpenAI - JukeBox](https://openai.com/blog/jukebox/) [[Github](https://github.com/openai/jukebox/)]
+- Datasets
 
 ## Music Generation의 고질적인 문제 1 : LONG TERM DEPENDENCY
 - 해결법 1 : autoencoder로 저차원 space로 mapping
@@ -35,7 +34,7 @@ author: crosstar
 - 가사를 위한 encoder를 더하고, **music decoder로부터 의 query**로부터 **가사 encoder로부터의 key, value 쌍** 으로의 attetion layer를 적용함.
 - 
 
-https://soundraw.io/ -> ai는 아님
+https://soundraw.io/ 
 https://magenta.tensorflow.org/
 https://www.aiva.ai/
 -> 음악 작곡
