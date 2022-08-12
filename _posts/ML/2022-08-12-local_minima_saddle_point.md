@@ -3,8 +3,7 @@ layout: post
 current: post
 cover:  assets/built/images/deeplearning.png
 navigation: True
-title: Paper Review - Identifying and attacking the saddle point
-problem in high-dimensional non-convex optimization
+title: Paper Review - Identifying and attacking the saddle point problem in high-dimensional non-convex optimization
 date: 2022-08-11 11:00:00
 tags: [ML]
 class: post-template
