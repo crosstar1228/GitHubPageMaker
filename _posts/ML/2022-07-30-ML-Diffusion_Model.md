@@ -49,8 +49,13 @@ noise를 추가하는 과정을 diffusion(확산 또는 전파)라고 이해할 
     - 신경망이 위에 해당하는 parameter를 학습하고 loss 파악하고 gradient descent 로 update하는 과정!
   - 역과정도 Gaussian noise를 가정하므로, 정규분포의 평균과 분산이 parameter로 정의됨
     $$p_\theta(x_{t-1}|x_t) = N(x_{t_1}; \mu_\theta(x_t, t), \sigma_\theta(x_t, t)))$$
-    - 허나 DDPM저자는 variance를 고정시키고, 조건부 확률 분포의 **평균**만 학습하게 함. (이후 더 발전된 형태에서는 variance만 학습)
+    - 허나 DDPM저자는 variance를 고정시키고, 조건부 확률 분포의 **평균**만 학습하게 함. 비슷한 결과를 보이기 때문. (이후 더 발전된 형태에서는 variance만 학습)
   - denoising 과정이 학습이 되어있음
+
+
+
+### 반복 과정!
+![](https://velog.velcdn.com/images/crosstar1228/post/6681b933-1134-44f6-abcd-3602ddde8ba1/image.png)
 
 ### Benefits
 - scalability
@@ -60,6 +65,8 @@ noise를 추가하는 과정을 diffusion(확산 또는 전파)라고 이해할 
 negative log likelihood를 사용하며, 초기 이미지(ground truth)의 확률분포와 복원된 이미지의 확률분포 간 KL Divergence
 - 둘다 Gaussian distribution
 각 time step의 Loss 를 모두 합한 것이 최종 loss가 됨
+- 각 step별로 noise와 neural network로 생성한 noise간의 rmse score
+  $$ || \epsilon - \epsilon_\theta(x_t, t) ||^2 $$
 ## Reference
 - https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/
 - https://arxiv.org/pdf/2006.11239.pdf
