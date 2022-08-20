@@ -11,6 +11,8 @@ subclass: 'post tag-ML'
 author: crosstar
 use_math: true
 ---
+
+
 > 이번 시간에 제가 소개해볼 논문이자 인공지능 모델은, 2021년 NeurIPS(신겅정보처리시스템학회) 에서 발표한 모델이자 생성모델 분야의 뜨거운 감자, **Diffusion Model**입니다!
 >  이름이 왜 Diffusion Model인지, 모델 구조와 최적화 Metric을 유념하면서 AI 생성모델 분야에 어떠한 영향력을 미치고 있는지 한번 알아보도록 해요!
 
@@ -20,6 +22,7 @@ use_math: true
 ### 그게 어떻게 좋은데?
 - 2021 NeurIPS 학회에서 Autoregressive 계열 생성모델보다 likelihood 성능이 좋고, GAN Based model보다 quality가 높은 sample 을 생성하는 것으로 발표되었답니다!
 - [Diffusion Models Beat GANs on Image Synthesis](https://paperswithcode.com/paper/diffusion-models-beat-gans-on-image-synthesis)
+
 ### Diffusion Model
 - 점진적인 noise 추가의 역과정을 학습하는 것이 개념의 핵심
 - 주어진 데이터 x 로부터 noise를 추가하고, noise data로부터 x로 돌아오는 과정을 학습함
@@ -36,11 +39,13 @@ noise를 추가하는 과정을 diffusion(확산 또는 전파)라고 이해할 
 ![](https://velog.velcdn.com/images/crosstar1228/post/2917dd77-3028-43f5-9348-5f2ea581f471/image.png)
 
 - forward process
-  - 점진적으로 noise를 더해가는 과정 $$q$$
-  - real data의 distribution을 $$q(x_0)$$라고 한다면, sampling을 할 수 있음. ($$x_0 ~ q(x_0)$$)
-    - time step 별로 gaussian noise를 추가하는 과정은 아래와 같다.
-      $$q(x_t|x_t-1) = N(x_t ; \root{1-\beta_t}x_{t-1}, \beta_t *I$$
-    - 여기서 $$\beta$$ 는 variance schedule이라고 해서, 직관적으로는 time step별로 추가될  noise의 분산에 해당하는 값이다.
+  - 점진적으로 noise를 더해가는 과정 $q$
+  - real data의 distribution을 $q(x_0)$라고 한다면, sampling을 할 수 있음. ($$x_0 ~ q(x_0)$$)
+    - time step 별로 gaussian noise를 추가하는 과정은 아래와 같다. 
+$$
+q(x_t|x_t-1) = N(x_t ; \root{1-\beta_t}x_{t-1}, \beta_t *I
+$$
+  - 여기서 $$\beta$$ 는 variance schedule이라고 해서, 직관적으로는 time step별로 추가될  noise의 분산에 해당하는 값이다.
   - diffusion model을 하나의 함수라고 한다면, model은 noisy component를 $$\epsilon(x_t, t)$$ 
     - true noise 와 predicted noise의이차이**
 - reverse process
@@ -67,6 +72,7 @@ negative log likelihood를 사용하며, 초기 이미지(ground truth)의 확�
 각 time step의 Loss 를 모두 합한 것이 최종 loss가 됨
 - 각 step별로 noise와 neural network로 생성한 noise간의 rmse score
   $$ || \epsilon - \epsilon_\theta(x_t, t) ||^2 $$
+- 
 ## Reference
 - https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/
 - https://arxiv.org/pdf/2006.11239.pdf
