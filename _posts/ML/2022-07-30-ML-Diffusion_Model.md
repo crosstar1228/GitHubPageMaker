@@ -43,9 +43,9 @@ noise를 추가하는 과정을 diffusion(확산 또는 전파)라고 이해할 
   - real data의 distribution을 $q(x_0)$라고 한다면, sampling을 할 수 있음. ($x_0$ ~ $q(x_0)$)
     - time step 별로 gaussian noise를 추가하는 과정은 아래와 같다. 
 
-$$
-q(x_t|x_{t-1}) = N(x_t ; \sqrt{1-\beta_t}x_{t-1}, \beta_t * I
-$$
+$
+q(x_t|x_{t-1}) = N(x_t ; \sqrt{1-\beta_t}x_{t-1}, \beta_tI
+$
 
 
   - 여기서 $\beta$ 는 variance schedule(**학습되기도 하고(parameter), 고정되기도 함(hyperparameter)**)이라고 해서, 직관적으로는 time step별로 추가될  noise의 분산에 해당하는 값이다.
@@ -53,12 +53,15 @@ $$
     - true noise 와 predicted noise의이차이
 - **reverse process**
   - **학습된** denoising process $p_\theta$
-  - 원래 $p(x_{t-1}|x_t)$ 의 conditional distribution에 가까운, $p_\theta(x_{t-1}|x_t)$ 를 학습하는 것!
+
+  - 원래 $p(x_{t-1}|x_t)$ 의 conditional distribution에 가까운 $p_\theta(x_{t-1}|x_t)$ 를 학습하는 것!
     - 신경망이 위에 해당하는 parameter를 학습하고 loss 파악하고 gradient descent 로 update하는 과정!
   - 역과정도 Gaussian noise를 가정하므로, 정규분포의 평균과 분산이 parameter로 정의됨
-    $p_\theta(x_{t-1}|x_t) = N(x_{t_1}; \mu_\theta(x_t, t), \sigma_\theta(x_t, t)))$
+    - $p_\theta(x_{t-1}|x_t) = N(x_{t_1}; \mu_\theta(x_t, t), \sigma_\theta(x_t, t)))$
     - 허나 DDPM저자는 variance를 고정시키고, 조건부 확률 분포의 **평균**만 학습하게 함. 비슷한 결과를 보이기 때문. (이후 더 발전된 형태에서는 variance만 학습)
   - denoising 과정이 학습이 되어있음
+
+
 
 
 
@@ -72,6 +75,8 @@ $$
 ### objective function
 negative log likelihood를 사용하며, 초기 이미지(ground truth)의 확률분포와 복원된 이미지의 확률분포 간 KL Divergence
 - 둘다 Gaussian distribution
+
+
 각 time step의 Loss 를 모두 합한 것이 최종 loss가 됨
 ### variance schedule이 학습 가능한 경우
 각 time step의 loss 는 아래와 같이 정의되고,
@@ -85,9 +90,8 @@ negative log likelihood를 사용하며, 초기 이미지(ground truth)의 확�
 - schedule을 고정시켜도 성능이 충분히 좋다
 - 선형 나열보다는 기하학적 나열이 더 성능이 좋음
 - L_{t-1}
-$$
-|| \epsilon - \epsilon_\theta(x_t, t) ||^2 
-$$
+
+$|| \epsilon - \epsilon_\theta(x_t, t) ||^2$
 
 > ### 정리 및 마무리
 > - forward process에서 markov chain에 의한 gaussian noise를 추가하고, 특정 variance schedule을 따름
