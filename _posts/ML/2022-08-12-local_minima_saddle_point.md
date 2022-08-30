@@ -23,6 +23,7 @@ use_math: true
 3) 이에 따라 일반화된 trust region 방법이 개발됨
    1) 도함수가 아닌 신뢰 지역(trust region)의 모양을 감지
    2) 곡률 정보를 알 수 있음
+### Saddle point 에서 벗어나기
 4) Saddle-Free Method : Hessian 값의 역으로 절댓값의 gradient value를 재조정
     - 이 방법으로 Gradient Descent와 Newton Method를 적절이 섞어 사용함으로서 빠르게 saddle point에서 벗어날 수 있음   
 

@@ -24,10 +24,12 @@ author: crosstar
 
 - 2016년 Sony의 App Flow Machine
   - 비틀즈 스타일 멜로디를 창조해 냄
+
 ### Music Generation 도 크게 다르지 않아
 - 머신러닝에서 모델은 다량의 데이터를 학습하고 그 안에서 '패턴'을 찾아냅니다. 
-- Music Generation에서는 그 패턴이 Chord, Tempo, lengths, note 간 관계성 등이됩니다. 
-- 
+- Music Generation에서는 그 패턴이 Chord, Tempo, lengths, note 간 관계성 등 이됩니다. 
+
+
 ### Symbolic approach, Non-symbolic approach
 
 ## Music Generation의 고질적인 문제 1 : LONG TERM DEPENDENCY
@@ -44,8 +46,9 @@ information but retaining most of the musical information
 
 ### JukeBox[[Paper](https://arxiv.org/abs/2005.00341)]
 - long context 를 autoregressiveTransformer 이용한 multi-sclae VQ-VAE로 해결
-- 
-## Lyric Conditioning
+
+
+### Lyric Conditioning
 - 노래의 duration에 linear 하게 가사의 문자들을 align하는 방법
 - 가사를 위한 encoder를 더하고, **music decoder로부터 의 query**로부터 **가사 encoder로부터의 key, value 쌍** 으로의 attetion layer를 적용함.
 
@@ -74,14 +77,29 @@ https://magenta.tensorflow.org/
 https://www.aiva.ai/
 -> 음악 작곡
 
-https://towardsdatascience.com/generating-music-with-artificial-intelligence-9ce3c9eef806
-https://topten.ai/music-generators-review/
+
 
 Datasets
-https://paperswithcode.com/task/music-generation
+
+- https://paperswithcode.com/task/music-generation
+
+
+## Music Generation and Deep learning
+1) 딥러닝 베이스 음악 생성의 컨셉
+2) 음악 생성의 다양한 방법과 원리
+3) 다양한 음악 생성의 개념적 분류 체계
+4) 트렌드
+
+
+abstract model이 generation을 위해 사용됨
+
 
 1. Sota models
    MuseGAN
    Melnet
    MidiNet
 
+## Reference
+- From artificial neural networks to deep learning for music generation: history, concepts and trends
+- https://towardsdatascience.com/generating-music-with-artificial-intelligence-9ce3c9eef806
+- https://topten.ai/music-generators-review/
