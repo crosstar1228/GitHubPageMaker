@@ -46,6 +46,29 @@ author: crosstar
 ## History
 - Iliac Suite : computer 로 만들어진 최초의 score
   - Markov chain 활용(Stochastic Model)
+- **Coconet**
+  ![](https://velog.velcdn.com/images/crosstar1228/post/5b0df87e-0c0b-48b7-892a-b8958dd41752/image.png)
+  ![](https://velog.velcdn.com/images/crosstar1228/post/e5825a0d-c3fd-450f-91f1-d034fe4c5c91/image.png)
+
+  - 4마디 단위로 잘라서 멜로디에 alto,tenor,bass에 대응하는 멜로디 추가
+  - piano roll type의 input을 one-hot vector로 encoding
+  - 16분음표로 quantization
+  - 전형적인 딥러닝의 multiclassification task
+- Todd's **Time-Windowed** and conditioned recurrent architectures
+  1. 인공신경망을 어떻게 음악생성에 활용할 수 있을지를 첫번쨰로 보여준 사례
+2. input : context와 plan으로 나뉨
+    - context :memory
+      - bos + 각 note에 부합하는 unit으로 구성
+    - plan : network가 학습한 특정 melody
+3. 학습방법
+   ![](https://velog.velcdn.com/images/crosstar1228/post/78d3fb95-60f1-4f67-9b53-088ade4f5879/image.png)
+   1) plan에서 melody 와
+   2) 초기화된 context의 첫번쨰 시점으로부터
+   3) 첫번쨰 output을 냄 (비교 및 weight update)
+   4) output은 다음 time step의 memory로 들어감
+   -> iterative하게 output을 기억하여 생성!
+
+- Lewis Creation by refinement
 
 ### Traditional Music Generation
 1) rule-based
