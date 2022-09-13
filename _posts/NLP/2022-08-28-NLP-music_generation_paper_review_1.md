@@ -94,8 +94,8 @@ author: crosstar
 - physical modeling
 - acoustic modeling : signal generator 이용
   - oscillator, modulator, filters와 같이 waveform 조작을 위한 processors
-  - 
-- 
+
+
 ### lyrics
 - 가사 포함 여부에 따라 music audio를 audio와 singing voice로 나눔.
 
@@ -117,7 +117,8 @@ author: crosstar
 - Transformer
   - REMI 
   - Transformer XL
-  - 
+
+
 ## Performance Generation : 대부분 RNN
 
 
