@@ -3,9 +3,7 @@ layout: post
 current: post
 cover:  assets/built/images/music_note.jpg
 navigation: True
-title: A Comprehensive Survey on Deep Music Generation:
-Multi-level Representations, Algorithms, Evaluations, and
-Future Directions
+title: A Comprehensive Survey on Deep Music Generation - Multi-level Representations, Algorithms, Evaluations, and Future Directions
 date: 2022-08-27 11:00:00
 tags: [nlp]
 class: post-template
