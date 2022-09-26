@@ -3,8 +3,7 @@ layout: post
 current: post
 cover:  assets/built/images/music_note.jpg
 navigation: True
-title: Symbolic Music Representation - 1D, 2D 
-Future Directions
+title: Symbolic Music Representation - 1D, 2D Future Directions
 date: 2022-09-13 11:00:00
 tags: [nlp]
 class: post-template
