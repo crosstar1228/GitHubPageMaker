@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/built/images/image_captioning.jpg
 navigation: True
-title: [Paper Review] Meshed-memory transformer for image captioning
+title: \[Paper Review\] Meshed-memory transformer for image captioning
 date: 2022-08-27 11:00:00
 tags: [nlp]
 class: post-template
