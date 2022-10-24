@@ -13,7 +13,7 @@ use_math: true
 ---
 
 ## 논문 간단 소개 
-> Google Research 에서 개발한 논문
+> Google Research 에서 개발한 모델. Semantic 과 acuostic, 두 갈래의 tokenization으로 나누어 성능 향샹을 이룸
 
 
 - Transcript(대본)을 통한 audio generation process가 주를 이루어왔음
@@ -56,9 +56,9 @@ use_math: true
 - 이 단계에서 speaker의 특성(음색 등)이 모델링됨
 
 ### 3. fine acoustic token
+![](https://velog.velcdn.com/images/crosstar1228/post/329274e9-1577-4224-b561-e2b18b4b269b/image.png)
 - 최종 audio에 detail을 추가함
 - 최종 acoustic token을 Soundstream decoder를 통해 reconstruct
-- ![](https://velog.velcdn.com/images/crosstar1228/post/329274e9-1577-4224-b561-e2b18b4b269b/image.png)
 
 
 ### 결론적으로
