@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/built/images/image_captioning.jpg
+cover:  assets/built/images/googleai.png
 navigation: True
 title: (Paper Review) AudioLM ; a language Modeling Approach to Audio Generation 
 date: 2022-08-27 11:00:00
@@ -32,11 +32,11 @@ use_math: true
 ### 이러한 허들을 극복하기 위하여
 ![](https://velog.velcdn.com/images/crosstar1228/post/71e3f8d5-0325-4df0-a867-096b632377c1/image.png)
 
-1. semantic token (from W2v-BERT)
+1. semantic token (from [W2v-BERT](https://deepai.org/publication/w2v-bert-combining-contrastive-learning-and-masked-language-modeling-for-self-supervised-speech-pre-training))
    - local dependency(speech의 음소, 음악의 melody)
    - global long-term structure(speech의 맥락, 음악의 harmony나 rhythm)
    - 긴 sequence를 허락하기 위하여 audio signal을 downsampling함
-2. acoustic token (from SoundStream)
+2. acoustic token (from [SoundStream neural codec](https://ai.googleblog.com/2021/08/soundstream-end-to-end-neural-audio.html))
 
 ## Audio-Only language model
 - AudioLM은 audio data만을 학습(text나 symbolic representation을 학습하지 않음)
