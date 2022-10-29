@@ -21,7 +21,8 @@ use_math: true
 
 ### itemgetter
 - index가 정해져있는 함수를 반환함
-```
+
+```angular2html
 arr = ['a', 'b', 'c']
 func = itemgetter(2)
 
