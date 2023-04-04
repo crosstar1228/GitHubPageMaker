@@ -18,9 +18,9 @@ use_math: true
 
 - Transcript(대본)을 통한 audio generation process가 주를 이루어왔음
   - speech synthesis에서 텍스트 대본
-  - 피아노에서 midi Representation
-- 하지만 transcript가 없는 상황에서는 생성에 어려움을 겪음
-  - speech voice recover : speaker characteristic 이 필요함
+  - 피아노에서 midi Representation 등등
+- **하지만 transcript가 없는 상황에서는 생성에 어려움을 겪음**
+  - **speech voice recover : speaker characteristic 이 필요함**
 
 ### AuodioLM의 허들
 - 대규모 말뭉치를 학습한 language model들은 최근 좋은 성능을 보임

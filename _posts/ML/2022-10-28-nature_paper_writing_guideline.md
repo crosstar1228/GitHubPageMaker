@@ -35,7 +35,12 @@ use_math: true
 - 
 
 ## 제출 후
-- todo로 보완 예정
+- 스태프가 peer-review로 보낼지 말지를 1차 검증함.
+- 검증 기준은
+  - novelty
+  - immediate and far-reaching implication
+  - 기술적 실효성이나 동종업계 사람들에게 있는 중요성은 검증대상이 아님
+- 가독성은 매우 중요한 포인트
 
 
 # Formatting guide
@@ -53,9 +58,9 @@ use_math: true
 
 ### Reference 수
 - 50개를 넘지 않아야 함.
+
 ### Section과 subheading
 - Section을 subheading으로 나눌 수 있고, subheading은 공백 포함 40자 이내로 해야 함
-
 
 
 
